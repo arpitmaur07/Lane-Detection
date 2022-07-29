@@ -38,7 +38,7 @@ def process(image):
     image_with_lines=draw_lines(image,lines)
     return image_with_lines
 
-cap=cv2.VideoCapture('1.mp4')    
+cap=cv2.VideoCapture('4.mp4')    
 while(cap.isOpened()):
     ret,frame=cap.read()
     frame=process(frame)
